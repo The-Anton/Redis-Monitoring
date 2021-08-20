@@ -8,7 +8,7 @@
   },
   "private": true,
   "scripts": {
-    "dev": "./node_modules/nodemon/bin/nodemon.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js",
     "load": "node src/utils/data_loader.js --",
     "lint": "./node_modules/eslint/bin/eslint.js src tests",
     "start": "node ./src/app.js",

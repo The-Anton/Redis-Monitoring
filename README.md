@@ -1,10 +1,23 @@
-# RediSolar for Node.js
+# Redi-Solar
 
 # Introduction
 
-This is the sample application codebase for RU102JS, [Redis for JavaScript Developers](https://university.redislabs.com/courses/ru102js/) at [Redis University](https://university.redislabs.com).
+The application is a solar power data ingestion
+and monitoring dashboard. RediSolar installs solar panels on homes and businesses,
+but it needs an application to ingest and display data.
 
-Solutions to the course programming challenges can be found on the `solutions` branch.
+We refer to each solar installation as a site, and each site is fitted with a network smart meter.
+The meter reports how much energy the site uses and how much it generates on a minute-by-minute basis.
+
+In application's front end, it displays a map showing all of the solar sites.
+The search bar allows us to find sites close to a given latitude/longitude coordinate.
+For each site, we can view recent energy data uploaded from the meter.
+
+We can also see which sites have the greatest and least capacity.
+
+The frontend is built using Vue.JS and Node.JS for backend. The project used Redis as a primary database using node_redis as redis client. 
+
+The project also implements Lua scripting as a stored procedre for optimizing database logic and reducing network overheads.
 
 # Prerequisites
 
@@ -132,6 +145,4 @@ To run the linter:
 npm run lint
 ```
 
-# Subscribe to our YouTube Channel
 
-We'd love for you to [check out our YouTube channel](https://youtube.com/redislabs), and subscribe if you want to see more Redis videos!
