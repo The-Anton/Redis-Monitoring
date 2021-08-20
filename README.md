@@ -1,10 +1,17 @@
 # Redi-Solar
 
+<p align="center">
+  <img src="vue.svg" alt="Vue.JS" style="margin:5px" width="30"/>
+  <img src="nodejs.svg" alt="Node.JS" style="margin:5px" width="30"/>
+  <img src="redis.svg" alt="Redis" style="margin:5px" width="30"/>
+  <img src="lua.svg" alt="Lua" style="margin:5px" width="30"/>
+  <img src="jest.svg" alt="Jest" style="margin:5px" width="30"/>
+</p>
+
 # Introduction
 
 The application is a solar power data ingestion
-and monitoring dashboard. RediSolar installs solar panels on homes and businesses,
-but it needs an application to ingest and display data.
+and monitoring dashboard.
 
 We refer to each solar installation as a site, and each site is fitted with a network smart meter.
 The meter reports how much energy the site uses and how much it generates on a minute-by-minute basis.
