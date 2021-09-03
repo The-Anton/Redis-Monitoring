@@ -1,7 +1,7 @@
 {
-  "name": "redisolar",
+  "name": "redis-monitoring",
   "version": "1.0.0",
-  "description": "Example application for Redis University RU102JS course.",
+  "description": "Solar power data ingestion and a monitoring dashboard using Redis as a primary database.",
   "main": "./src/app.js",
   "directories": {
     "test": "test"

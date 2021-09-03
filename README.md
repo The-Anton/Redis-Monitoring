@@ -1,11 +1,11 @@
-# Redi-Solar
+# Redis-Monitoring
 
 <p align="center">
-  <img src="vue.svg" alt="Vue.JS" style="margin:5px" width="30"/>
-  <img src="nodejs.svg" alt="Node.JS" style="margin:5px" width="30"/>
-  <img src="redis.svg" alt="Redis" style="margin:5px" width="30"/>
-  <img src="lua.svg" alt="Lua" style="margin:5px" width="30"/>
-  <img src="jest.svg" alt="Jest" style="margin:5px" width="30"/>
+  <img src="vue.svg" alt="Vue.JS" style="margin:30px" width="80"/>
+  <img src="nodejs.svg" alt="Node.JS" style="margin:30px" width="80"/>
+  <img src="redis.svg" alt="Redis" style="margin:30px" width="80"/>
+  <img src="lua.svg" alt="Lua" style="margin:30px" width="80"/>
+  <img src="jest.svg" alt="Jest" style="margin:30px" width="80"/>
 </p>
 
 # Introduction
@@ -25,6 +25,7 @@ We can also see which sites have the greatest and least capacity.
 The frontend is built using Vue.JS and Node.JS for backend. The project used Redis as a primary database using node_redis as redis client. 
 
 The project also implements Lua scripting as a stored procedre for optimizing database logic and reducing network overheads.
+
 
 # Prerequisites
 
@@ -153,3 +154,9 @@ npm run lint
 ```
 
 
+
+
+
+## If you find it interesting pls do ⭐ star this repo, it gives motivation. 🤩
+
+[![Stargazers repo roster for @The-Anton/Redis-Solar](https://reporoster.com/stars/The-Anton/Redis-Solar)](https://github.com/The-Anton/Redis-Solar/stargazers)
