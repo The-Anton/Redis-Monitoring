@@ -1,11 +1,11 @@
 # Redis-Monitoring
 
 <p align="center">
-  <img src="vue.svg" alt="Vue.JS" style="margin:30px" width="80"/>
-  <img src="nodejs.svg" alt="Node.JS" style="margin:30px" width="80"/>
-  <img src="redis.svg" alt="Redis" style="margin:30px" width="80"/>
-  <img src="lua.svg" alt="Lua" style="margin:30px" width="80"/>
-  <img src="jest.svg" alt="Jest" style="margin:30px" width="80"/>
+  <img src="public/static/img/vue.svg" alt="Vue.JS" style="margin:30px" width="80"/>
+  <img src="public/static/img/nodejs.svg" alt="Node.JS" style="margin:30px" width="80"/>
+  <img src="public/static/img/redis.svg" alt="Redis" style="margin:30px" width="80"/>
+  <img src="public/static/img/lua.svg" alt="Lua" style="margin:30px" width="80"/>
+  <img src="public/static/img/jest.svg" alt="Jest" style="margin:30px" width="80"/>
 </p>
 
 # Introduction
